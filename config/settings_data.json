@@ -9,9 +9,9 @@
             "background": "#FFFFFF",
             "background_gradient": "",
             "text": "#121212",
-            "button": "#121212",
+            "button": "#1a2f5e",
             "button_label": "#FFFFFF",
-            "secondary_button_label": "#121212",
+            "secondary_button_label": "#1a2f5e",
             "shadow": "#121212"
           }
         },
@@ -20,41 +20,41 @@
             "background": "#F3F3F3",
             "background_gradient": "",
             "text": "#121212",
-            "button": "#121212",
-            "button_label": "#F3F3F3",
-            "secondary_button_label": "#121212",
+            "button": "#1a2f5e",
+            "button_label": "#FFFFFF",
+            "secondary_button_label": "#1a2f5e",
             "shadow": "#121212"
           }
         },
         "scheme-3": {
           "settings": {
-            "background": "#242833",
+            "background": "#1a2f5e",
             "background_gradient": "",
             "text": "#FFFFFF",
-            "button": "#FFFFFF",
-            "button_label": "#000000",
+            "button": "#f5820d",
+            "button_label": "#FFFFFF",
             "secondary_button_label": "#FFFFFF",
             "shadow": "#121212"
           }
         },
         "scheme-4": {
           "settings": {
-            "background": "#121212",
+            "background": "#0f1e3d",
             "background_gradient": "",
             "text": "#FFFFFF",
-            "button": "#FFFFFF",
-            "button_label": "#121212",
+            "button": "#f5820d",
+            "button_label": "#FFFFFF",
             "secondary_button_label": "#FFFFFF",
             "shadow": "#121212"
           }
         },
         "scheme-5": {
           "settings": {
-            "background": "#334FB4",
+            "background": "#f5820d",
             "background_gradient": "",
             "text": "#FFFFFF",
             "button": "#FFFFFF",
-            "button_label": "#334FB4",
+            "button_label": "#f5820d",
             "secondary_button_label": "#FFFFFF",
             "shadow": "#121212"
           }
@@ -153,6 +153,9 @@
       "badge_corner_radius": 40,
       "sale_badge_color_scheme": "scheme-5",
       "sold_out_badge_color_scheme": "scheme-3",
+      "brand_headline": "GENBAREX（ゲンバレックス）",
+      "brand_description": "<p>作業服・ユニフォーム・安全靴・ファン付きウェアなど、働く現場に必要な仕事服を取り扱う専門通販ストアです。</p>",
+      "brand_image_width": 200,
       "social_twitter_link": "",
       "social_facebook_link": "",
       "social_pinterest_link": "",
@@ -171,6 +174,57 @@
       "show_cart_note": false,
       "cart_drawer_collection": "",
       "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "announcement": {
+              "type": "announcement",
+              "settings": {
+                "text": "現場で働く人を支える、作業服・ユニフォームの専門通販 GENBAREX",
+                "link": ""
+              }
+            }
+          },
+          "block_order": ["announcement"],
+          "settings": {
+            "color_scheme": "scheme-4",
+            "show_line_separator": true,
+            "show_social": false,
+            "enable_country_selector": false,
+            "enable_language_selector": false
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo_position": "middle-left",
+            "menu": "main-menu",
+            "show_line_separator": true,
+            "color_scheme": "scheme-1",
+            "sticky_header_type": "on-scroll-up"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "brand_information": {
+              "type": "brand_information",
+              "settings": {
+                "show_social": false
+              }
+            }
+          },
+          "block_order": ["brand_information"],
+          "settings": {
+            "color_scheme": "scheme-4",
+            "newsletter_enable": false,
+            "show_social": false,
+            "enable_country_selector": false,
+            "enable_language_selector": false,
+            "payment_enable": true,
+            "show_policy": false
+          }
+        },
         "main-password-header": {
           "type": "main-password-header",
           "settings": {
