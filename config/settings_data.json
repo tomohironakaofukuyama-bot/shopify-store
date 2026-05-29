@@ -223,14 +223,39 @@
               "settings": {
                 "show_social": false
               }
+            },
+            "quick_links": {
+              "type": "link_list",
+              "settings": {
+                "heading": "クイックリンク",
+                "menu": "main-menu"
+              }
+            },
+            "contact_info": {
+              "type": "link_list",
+              "settings": {
+                "heading": "お問い合わせ",
+                "menu": "footer"
+              }
+            },
+            "about": {
+              "type": "text",
+              "settings": {
+                "heading": "GENBAREXについて",
+                "subtext": "<p>作業服・空調服の専門店GENBAREXの公式オンラインショップです。</p>"
+              }
             }
           },
           "block_order": [
-            "brand_information"
+            "brand_information",
+            "quick_links",
+            "contact_info",
+            "about"
           ],
           "settings": {
             "color_scheme": "scheme-4",
-            "newsletter_enable": false,
+            "newsletter_enable": true,
+            "newsletter_heading": "メルマガ登録",
             "show_social": false,
             "enable_country_selector": false,
             "enable_language_selector": false,
