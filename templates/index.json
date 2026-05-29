@@ -55,6 +55,67 @@
         "show_text_below": false
       }
     },
+    "collection_list": {
+      "type": "collection-list",
+      "blocks": {
+        "col_kucho": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "空調服-空調風神服"
+          }
+        },
+        "col_sagyofu": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "作業服-ユニフォーム"
+          }
+        },
+        "col_cargo": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "カーゴパンツ-ボトムス"
+          }
+        },
+        "col_polo": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ポロシャツ-tシャツ"
+          }
+        },
+        "col_vest": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "安全ベスト-保護具"
+          }
+        },
+        "col_suirei": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "水冷服-冷却グッズ"
+          }
+        }
+      },
+      "block_order": [
+        "col_kucho",
+        "col_sagyofu",
+        "col_cargo",
+        "col_polo",
+        "col_vest",
+        "col_suirei"
+      ],
+      "settings": {
+        "title": "カテゴリーから探す",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -210,6 +271,7 @@
   },
   "order": [
     "image_banner",
+    "collection_list",
     "rich_text",
     "featured_collection",
     "collage",
