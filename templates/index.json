@@ -24,14 +24,14 @@
         "heading"
       ],
       "custom_css": [
-        ".banner__media img{object-fit:cover!important;object-position:25% top!important}",
-        ".banner__content {padding-right: 6% !important;}",
-        ".banner__box {text-align: right !important; align-items: flex-end !important; background: transparent !important; border: none !important; box-shadow: none !important;}",
-        ".banner__heading {font-size: 44px !important; font-weight: 900 !important;}",
-        ".banner__text {text-align: right !important;}"
+        ".banner__media img{object-fit:cover!important;object-position:center center!important}",
+        ".banner__content{padding-right:6%!important}",
+        ".banner__box{text-align:right!important;align-items:flex-end!important;background:transparent!important;border:none!important;box-shadow:none!important}",
+        ".banner__heading{font-size:44px!important;font-weight:900!important}",
+        ".banner__text{text-align:right!important}"
       ],
       "settings": {
-        "image": "shopify://shop_images/ffa7e8f4-e9da-445e-8795-c26044f793cb.png",
+        "image": "shopify://shop_images/77e3f67a-6a97-4a8c-8264-81f09ff1e930.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "image_behavior": "none",
