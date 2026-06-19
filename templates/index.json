@@ -24,11 +24,7 @@
         "heading"
       ],
       "custom_css": [
-        ".banner__media img {object-position: 20% center !important;}",
-        ".banner__content {padding-right: 4% !important;}",
-        ".banner__box {text-align: right !important; align-items: flex-end !important; background: transparent !important; border: none !important; box-shadow: none !important;}",
-        ".banner__heading {font-size: 44px !important; font-weight: 900 !important; letter-spacing: 0.05em !important; font-family: \"Hiragino Sans\", \"Noto Sans JP\", sans-serif !important;}",
-        ".banner__text {text-align: right !important;}"
+        ".banner__media img {object-fit: contain !important; object-position: left center !important; background: #f5f5f5 !important;}"
       ],
       "settings": {
         "image": "shopify://shop_images/5eb5f7d5-9802-4fbe-84c0-7a7c2d94f3f9.png",
