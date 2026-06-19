@@ -24,10 +24,10 @@
         "heading"
       ],
       "custom_css": [
-        ".banner__media img{object-fit:cover!important;object-position:center!important}",
-        ".banner__box{text-align:right!important;align-items:flex-end!important;background:none!important;border:0!important;box-shadow:none!important;padding-right:6%!important}",
-        ".banner__heading{font-size:44px!important;font-weight:900!important}",
-        "@media(max-width:749px){.banner__heading{font-size:28px!important}.banner__box{text-align:center!important;align-items:center!important;padding:0!important}}"
+        ".banner__media img {object-fit: cover !important; object-position: center !important;}",
+        ".banner__box {text-align: right !important; align-items: flex-end !important; background: none !important; border: 0 !important; box-shadow: none !important; padding-right: 6% !important;}",
+        ".banner__heading {font-size: 44px !important; font-weight: 900 !important;}",
+        "@media (max-width: 749px) {.banner__heading {font-size: 28px !important; } .banner__box {text-align: center !important; align-items: center !important; padding: 0 !important; }}"
       ],
       "settings": {
         "image": "shopify://shop_images/77e3f67a-6a97-4a8c-8264-81f09ff1e930.png",
@@ -38,7 +38,7 @@
         "desktop_content_alignment": "left",
         "show_text_box": false,
         "color_scheme": "scheme-1",
-        "stack_images_on_mobile": false,
+        "stack_images_on_mobile": true,
         "mobile_content_alignment": "center",
         "show_text_below": false
       }
