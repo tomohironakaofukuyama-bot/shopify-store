@@ -44,17 +44,21 @@
         "button"
       ],
       "custom_css": [
-        ".image-banner .banner__content {margin-left: auto; margin-right: 5%; align-items: flex-end;}"
+        ".banner__media img {object-position: 20% center !important;}",
+        ".banner__content {padding-right: 4% !important;}",
+        ".banner__box {text-align: right !important; align-items: flex-end !important; background: transparent !important; border: none !important; box-shadow: none !important;}",
+        ".banner__heading {font-size: 44px !important; font-weight: 900 !important; letter-spacing: 0.05em !important; font-family: \"Hiragino Sans\", \"Noto Sans JP\", sans-serif !important;}",
+        ".banner__text {text-align: right !important;}"
       ],
       "settings": {
         "image": "shopify://shop_images/ffa7e8f4-e9da-445e-8795-c26044f793cb.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "image_behavior": "none",
-        "desktop_content_position": "middle-left",
-        "desktop_content_alignment": "right",
+        "desktop_content_position": "middle-right",
+        "desktop_content_alignment": "center",
         "show_text_box": false,
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-1",
         "stack_images_on_mobile": false,
         "mobile_content_alignment": "center",
         "show_text_below": false
@@ -124,6 +128,13 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "custom_css": [
+        ".banner__media img {object-position: 20% center !important;}",
+        ".banner__content {padding-right: 4% !important;}",
+        ".banner__box {text-align: right !important; align-items: flex-end !important; background: transparent !important; border: none !important; box-shadow: none !important;}",
+        ".banner__heading {font-size: 44px !important; font-weight: 900 !important; letter-spacing: 0.05em !important; font-family: \"Hiragino Sans\", \"Noto Sans JP\", sans-serif !important;}",
+        ".banner__text {text-align: right !important;}"
+      ],
       "settings": {
         "collection": "all",
         "products_to_show": 8,
