@@ -31,9 +31,9 @@
         ".banner__text {text-align: right !important;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/ffa7e8f4-e9da-445e-8795-c26044f793cb.png",
+        "image": "shopify://shop_images/5eb5f7d5-9802-4fbe-84c0-7a7c2d94f3f9.png",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image_height": "large",
         "image_behavior": "none",
         "desktop_content_position": "middle-right",
         "desktop_content_alignment": "left",
