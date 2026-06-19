@@ -93,6 +93,12 @@
           "settings": {
             "collection": "水冷服-冷却グッズ"
           }
+        },
+        "col_fan_battery": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "空調風神服ファン-バッテリーセット"
+          }
         }
       },
       "block_order": [
@@ -101,7 +107,8 @@
         "col_cargo",
         "col_polo",
         "col_vest",
-        "col_suirei"
+        "col_suirei",
+        "col_fan_battery"
       ],
       "settings": {
         "title": "カテゴリーから探す",
