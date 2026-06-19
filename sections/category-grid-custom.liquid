@@ -1,0 +1,85 @@
+{% comment %}カスタムカテゴリグリッド 7列{% endcomment %}
+{{ 'section-category-grid-custom.css' | asset_url | stylesheet_tag }}
+
+<div class="category-grid-custom page-width section-{{ section.id }}-padding">
+  {% if section.settings.title != blank %}
+    <h2 class="category-grid-custom__title {{ section.settings.heading_size }}">{{ section.settings.title }}</h2>
+  {% endif %}
+  <ul class="category-grid-custom__list" role="list">
+    {% for block in section.blocks %}
+      {% assign collection = collections[block.settings.collection] %}
+      <li class="category-grid-custom__item" {{ block.shopify_attributes }}>
+        <a href="{{ collection.url }}" class="category-grid-custom__link">
+          <div class="category-grid-custom__image-wrap">
+            {% if collection.image %}
+              {{ collection.image | image_url: width: 300 | image_tag: loading: 'lazy', alt: collection.title }}
+            {% else %}
+              <div class="category-grid-custom__no-image"></div>
+            {% endif %}
+          </div>
+          <p class="category-grid-custom__name">{{ collection.title }}</p>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+{% schema %}
+{
+  "name": "カスタムカテゴリグリッド",
+  "tag": "section",
+  "class": "section",
+  "max_blocks": 10,
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "見出し",
+      "default": "カテゴリーから探す"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "見出しサイズ",
+      "options": [
+        { "value": "h1", "label": "特大" },
+        { "value": "h2", "label": "大" },
+        { "value": "h3", "label": "中" }
+      ],
+      "default": "h2"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "上の余白",
+      "min": 0, "max": 100, "step": 4, "unit": "px",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "下の余白",
+      "min": 0, "max": 100, "step": 4, "unit": "px",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "featured_collection",
+      "name": "コレクション",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "コレクション"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "カスタムカテゴリグリッド"
+    }
+  ]
+}
+{% endschema %}
