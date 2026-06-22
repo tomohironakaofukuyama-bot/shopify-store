@@ -25,25 +25,10 @@
       "block_order": [
         "announcement-bar-0"
       ],
-      "settings": {
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "color_scheme": "",
-        "show_line_separator": true,
-        "show_social": false,
-        "enable_country_selector": false,
-        "enable_language_selector": false
-      }
+      "settings": {}
     },
     "header": {
       "type": "header",
-      "custom_css": [
-        ".banner__box{background:none!important;padding-right:6%!important}",
-        ".banner__heading{font-size:44px!important;font-weight:900!important}",
-        ".banner__media-half{width:100%!important}",
-        ".banner__media:last-child{display:none!important}",
-        "@media(max-width:749px){.banner__box{display:none!important}.banner__media:first-child{display:none!important}.banner__media:last-child{display:block!important}}"
-      ],
       "settings": {
         "logo_position": "middle-left",
         "mobile_logo_position": "center",
@@ -52,10 +37,8 @@
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
         "color_scheme": "scheme-1",
-        "menu_color_scheme": "",
         "enable_country_selector": true,
         "enable_language_selector": true,
-        "enable_customer_avatar": true,
         "margin_bottom": 0,
         "padding_top": 20,
         "padding_bottom": 20
