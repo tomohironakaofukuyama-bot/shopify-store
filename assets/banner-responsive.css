@@ -1,0 +1,19 @@
+.banner-img-pc img{object-fit:cover!important}
+.banner-img-mobile{display:none!important}
+@media(max-width:749px){
+  .banner-img-pc{display:none!important}
+  .banner-img-mobile{display:block!important}
+  .banner-img-mobile img{object-fit:cover!important}
+}
+
+/* ボタン位置：テキストの中央下・左寄せ */
+.banner__content {
+  justify-content: flex-end !important;
+}
+.banner__box {
+  width: 100% !important;
+}
+.banner__buttons {
+  justify-content: flex-start !important;
+  margin-top: 12px !important;
+}
