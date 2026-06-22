@@ -41,7 +41,7 @@
         "@media (max-width: 749px) {.banner__box {display: none !important; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/77e3f67a-6a97-4a8c-8264-81f09ff1e930.png",
+        "image": "shopify://shop_images/77e3f67a-6a97-4a8c-8264-81f09ff1e930_1.png",
         "image_2": "shopify://shop_images/ChatGPT_Image_2026_6_22_15_17_01.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
