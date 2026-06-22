@@ -37,6 +37,13 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        ".banner__box{background:none!important;padding-right:6%!important}",
+        ".banner__heading{font-size:44px!important;font-weight:900!important}",
+        ".banner__media-half{width:100%!important}",
+        ".banner__media:last-child{display:none!important}",
+        "@media(max-width:749px){.banner__box{display:none!important}.banner__media:first-child{display:none!important}.banner__media:last-child{display:block!important}}"
+      ],
       "settings": {
         "logo_position": "middle-left",
         "mobile_logo_position": "center",
