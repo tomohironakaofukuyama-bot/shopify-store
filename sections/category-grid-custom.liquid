@@ -7,7 +7,13 @@
   {% endif %}
   <ul class="category-grid-custom__list" role="list">
     {% for block in section.blocks %}
-      {% assign collection = collections[block.settings.collection] %}
+      {% assign collection = collections[block.settings.collection] | default: blank %}
+      {% for col in collections %}
+        {% if col.handle == block.settings.collection or col.id == block.settings.collection %}
+          {% assign collection = col %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
       <li class="category-grid-custom__item" {{ block.shopify_attributes }}>
         <a href="{{ collection.url }}" class="category-grid-custom__link">
           <div class="category-grid-custom__image-wrap">
