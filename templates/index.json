@@ -44,17 +44,17 @@
         "button"
       ],
       "settings": {
+        "image": "shopify://shop_images/77e3f67a-6a97-4a8c-8264-81f09ff1e930_1.png",
+        "image_2": "shopify://shop_images/ChatGPT_Image_2026_6_22_15_17_01.png",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
-        "show_text_box": false,
         "desktop_content_alignment": "center",
+        "show_text_box": false,
         "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
-        "show_text_below": false,
-        "image": "shopify://shop_images/77e3f67a-6a97-4a8c-8264-81f09ff1e930_1.png",
-        "image_2": "shopify://shop_images/ChatGPT_Image_2026_6_22_15_17_01.png"
+        "mobile_content_alignment": "center",
+        "show_text_below": false
       }
     },
     "category_grid_custom": {
@@ -63,43 +63,43 @@
         "col_fan_battery": {
           "type": "featured_collection",
           "settings": {
-            "collection": "????????-????????"
+            "collection": "gid://shopify/collection/300897337428"
           }
         },
         "col_kucho": {
           "type": "featured_collection",
           "settings": {
-            "collection": "???-?????"
+            "collection": "gid://shopify/collection/300042420308"
           }
         },
         "col_cargo": {
           "type": "featured_collection",
           "settings": {
-            "collection": "??????-????"
+            "collection": "gid://shopify/collection/300042387540"
           }
         },
         "col_polo": {
           "type": "featured_collection",
           "settings": {
-            "collection": "?????-t???"
+            "collection": "gid://shopify/collection/300042485844"
           }
         },
         "col_sagyofu": {
           "type": "featured_collection",
           "settings": {
-            "collection": "???-??????"
+            "collection": "gid://shopify/collection/300042453076"
           }
         },
         "col_suirei": {
           "type": "featured_collection",
           "settings": {
-            "collection": "???-?????"
+            "collection": "gid://shopify/collection/300042551380"
           }
         },
         "col_vest": {
           "type": "featured_collection",
           "settings": {
-            "collection": "?????-???"
+            "collection": "gid://shopify/collection/300042518612"
           }
         }
       },
@@ -122,19 +122,19 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "??????",
-        "heading_size": "h2",
         "collection": "all",
         "products_to_show": 8,
+        "title": "??????",
+        "heading_size": "h2",
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
         "show_view_all": false,
-        "swipe_on_mobile": false,
+        "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 28,
         "padding_bottom": 36
       }
