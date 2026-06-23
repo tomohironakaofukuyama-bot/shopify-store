@@ -22,7 +22,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "GENBAREXは、働く人の快適さ・安全性・動きやすさを支える、作業服・ユニフォームの専門ブランドです。",
+            "text": "GENBAREXは、働く人の快適さ・安全性・動きやすさを���える、作業服・ユニフォームの専門ブランドです。",
             "text_style": "body"
           }
         },
@@ -124,7 +124,7 @@
       "settings": {
         "collection": "all",
         "products_to_show": 8,
-        "title": "??????",
+        "title": "おすすめ商品",
         "heading_size": "h2",
         "columns_desktop": 4,
         "show_view_all": false,
