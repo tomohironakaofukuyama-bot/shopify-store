@@ -9,7 +9,8 @@
  */
 {
   "current": {
-    "logo_width": 90,
+    "logo": "shopify://shop_images/bb599fb2df7d59bf44909ff7e1502fb5.png",
+    "logo_width": 300,
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
@@ -217,25 +218,26 @@
         }
       }
     },
+    "content_for_index": [],
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#FFFFFF",
+          "background": "#ffffff",
           "background_gradient": "",
           "text": "#121212",
           "button": "#1a2f5e",
-          "button_label": "#FFFFFF",
+          "button_label": "#ffffff",
           "secondary_button_label": "#1a2f5e",
           "shadow": "#121212"
         }
       },
       "scheme-2": {
         "settings": {
-          "background": "#F3F3F3",
+          "background": "#f3f3f3",
           "background_gradient": "",
           "text": "#121212",
           "button": "#1a2f5e",
-          "button_label": "#FFFFFF",
+          "button_label": "#ffffff",
           "secondary_button_label": "#1a2f5e",
           "shadow": "#121212"
         }
@@ -244,21 +246,21 @@
         "settings": {
           "background": "#1a2f5e",
           "background_gradient": "",
-          "text": "#FFFFFF",
+          "text": "#ffffff",
           "button": "#f5820d",
-          "button_label": "#FFFFFF",
-          "secondary_button_label": "#FFFFFF",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#ffffff",
           "shadow": "#121212"
         }
       },
       "scheme-4": {
         "settings": {
-          "background": "#0f1e3d",
+          "background": "#000000",
           "background_gradient": "",
-          "text": "#FFFFFF",
+          "text": "#ffffff",
           "button": "#f5820d",
-          "button_label": "#FFFFFF",
-          "secondary_button_label": "#FFFFFF",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#ffffff",
           "shadow": "#121212"
         }
       },
@@ -266,10 +268,10 @@
         "settings": {
           "background": "#f5820d",
           "background_gradient": "",
-          "text": "#FFFFFF",
-          "button": "#FFFFFF",
+          "text": "#ffffff",
+          "button": "#ffffff",
           "button_label": "#f5820d",
-          "secondary_button_label": "#FFFFFF",
+          "secondary_button_label": "#ffffff",
           "shadow": "#121212"
         }
       }
