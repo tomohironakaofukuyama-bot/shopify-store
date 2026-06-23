@@ -15,15 +15,8 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "作業服・空調服の専門店 GENBAREX",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "GENBAREXは、働く人の快適さ・安全性・動きやすさを支える、作業服・ユニフォームの専門ブランドです。",
-            "text_style": "body"
+            "heading": "現場を変える作業服。",
+            "heading_size": "h1"
           }
         },
         "button": {
@@ -40,15 +33,16 @@
       },
       "block_order": [
         "heading",
-        "text",
         "button"
       ],
+      "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/77e3f67a-6a97-4a8c-8264-81f09ff1e930_1.png",
         "image_2": "shopify://shop_images/ChatGPT_Image_2026_6_22_15_17_01.png",
         "image_overlay_opacity": 40,
         "image_height": "large",
-        "desktop_content_position": "bottom-center",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-right",
         "desktop_content_alignment": "center",
         "show_text_box": false,
         "color_scheme": "scheme-3",
@@ -126,13 +120,21 @@
         "products_to_show": 8,
         "title": "おすすめ商品",
         "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
         "show_view_all": false,
+        "view_all_style": "solid",
         "color_scheme": "scheme-1",
         "image_ratio": "adapt",
+        "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
+        "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 28,
