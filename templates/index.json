@@ -63,43 +63,43 @@
         "col_fan_battery": {
           "type": "featured_collection",
           "settings": {
-            "collection": "gid://shopify/collection/300897337428"
+            "collection": "空調風神服ファン-バッテリーセット"
           }
         },
         "col_kucho": {
           "type": "featured_collection",
           "settings": {
-            "collection": "gid://shopify/collection/300042420308"
+            "collection": "空調服-空調風神服"
           }
         },
         "col_cargo": {
           "type": "featured_collection",
           "settings": {
-            "collection": "gid://shopify/collection/300042387540"
+            "collection": "カーゴパンツ-ボトムス"
           }
         },
         "col_polo": {
           "type": "featured_collection",
           "settings": {
-            "collection": "gid://shopify/collection/300042485844"
+            "collection": "ポロシャツ-tシャツ"
           }
         },
         "col_sagyofu": {
           "type": "featured_collection",
           "settings": {
-            "collection": "gid://shopify/collection/300042453076"
+            "collection": "作業服-ユニフォーム"
           }
         },
         "col_suirei": {
           "type": "featured_collection",
           "settings": {
-            "collection": "gid://shopify/collection/300042551380"
+            "collection": "水冷服-冷却グッズ"
           }
         },
         "col_vest": {
           "type": "featured_collection",
           "settings": {
-            "collection": "gid://shopify/collection/300042518612"
+            "collection": "安全ベスト-保護具"
           }
         }
       },
