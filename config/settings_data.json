@@ -162,8 +162,8 @@
       "badge_corner_radius": 40,
       "sale_badge_color_scheme": "scheme-5",
       "sold_out_badge_color_scheme": "scheme-3",
-      "brand_headline": "GENBAREX（ゲンバレックス）",
-      "brand_description": "<p>作業服・ユニフォーム・安全靴・ファン付きウェアなど、働く現場に必要な仕事服を取り扱う専門通販ストアです。</p>",
+      "brand_headline": "GENBAREX(???????)",
+      "brand_description": "<p>????????????????????????????????????????????????????</p>",
       "brand_image_width": 200,
       "social_twitter_link": "",
       "social_facebook_link": "",
@@ -189,7 +189,7 @@
             "announcement": {
               "type": "announcement",
               "settings": {
-                "text": "現場で働く人を支える、作業服・ユニフォームの専門通販 GENBAREX",
+                "text": "?????????????????????????? GENBAREX",
                 "link": ""
               }
             }
@@ -227,22 +227,22 @@
             "quick_links": {
               "type": "link_list",
               "settings": {
-                "heading": "クイックリンク",
+                "heading": "???????",
                 "menu": "main-menu"
               }
             },
             "contact_info": {
               "type": "link_list",
               "settings": {
-                "heading": "お問い合わせ",
+                "heading": "??????",
                 "menu": "footer"
               }
             },
             "about": {
               "type": "text",
               "settings": {
-                "heading": "GENBAREXについて",
-                "subtext": "<p>作業服・空調服の専門店GENBAREXの公式オンラインショップです。</p>"
+                "heading": "GENBAREX????",
+                "subtext": "<p>???????????GENBAREX???????????????</p>"
               }
             }
           },
@@ -255,7 +255,7 @@
           "settings": {
             "color_scheme": "scheme-4",
             "newsletter_enable": true,
-            "newsletter_heading": "メルマガ登録",
+            "newsletter_heading": "??????",
             "show_social": false,
             "enable_country_selector": false,
             "enable_language_selector": false,
