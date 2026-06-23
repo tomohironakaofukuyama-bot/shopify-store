@@ -52,7 +52,9 @@
                                                            "color_scheme":  "scheme-3",
                                                            "mobile_content_alignment":  "center",
                                                            "stack_images_on_mobile":  false,
-                                                           "show_text_below":  false
+                                                           "show_text_below":  false,
+                                                           "image":  "shopify://shop_images/77e3f67a-6a97-4a8c-8264-81f09ff1e930_1.png",
+                                                           "image_2":  "shopify://shop_images/ChatGPT_Image_2026_6_22_15_17_01.png"
                                                        }
                                       },
                      "category_grid_custom":  {
