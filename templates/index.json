@@ -36,7 +36,7 @@
         "button"
       ],
       "custom_css": [
-        "body,h1,h2,h3,h4,h5,h6,.banner__heading{font-family:'M PLUS 1p',sans-serif!important}"
+        "body,h1,h2,h3,h4,h5,h6,.banner__heading {font-family: \"M PLUS 1p\", sans-serif !important;}"
       ],
       "settings": {
         "image": "shopify://shop_images/77e3f67a-6a97-4a8c-8264-81f09ff1e930_1.png",
@@ -126,7 +126,7 @@
         "show_description": false,
         "description_style": "body",
         "columns_desktop": 4,
-        "enable_desktop_slider": false,
+        "enable_desktop_slider": true,
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
