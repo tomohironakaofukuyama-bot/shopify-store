@@ -118,8 +118,8 @@
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
-        ".slider__slide{padding:0 4px!important}",
-        ".card__media{aspect-ratio:1/1!important}"
+        ".slider__slide {padding: 0 4px !important;}",
+        ".card__media {aspect-ratio: 1/1 !important;}"
       ],
       "settings": {
         "collection": "all",
@@ -129,10 +129,10 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "enable_desktop_slider": true,
         "full_width": false,
-        "show_view_all": false,
+        "show_view_all": true,
         "view_all_style": "solid",
         "color_scheme": "scheme-1",
         "image_ratio": "square",
