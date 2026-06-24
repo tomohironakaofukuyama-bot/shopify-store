@@ -117,10 +117,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
-      "custom_css": [
-        ".slider__slide {padding: 0 4px !important;}",
-        ".card__media {aspect-ratio: 1/1 !important;}"
-      ],
+      "custom_css": [],
       "settings": {
         "collection": "all",
         "products_to_show": 8,
@@ -135,7 +132,7 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "color_scheme": "scheme-1",
-        "image_ratio": "square",
+        "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
