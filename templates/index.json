@@ -110,7 +110,7 @@
       ],
       "custom_css": [],
       "settings": {
-        "title": "���テゴリーから探す",
+        "title": "カテゴリから探す",
         "heading_size": "h2",
         "padding_top": 36,
         "padding_bottom": 36
@@ -121,8 +121,8 @@
       "custom_css": [
         ".card--standard .card__media {aspect-ratio: auto !important;}",
         ".card__media img {aspect-ratio: 4/5 !important; object-fit: contain !important; background: #fff !important;}",
-        ".collection .title-wrapper{text-align:center!important}",
-        ".collection__title{text-align:center!important}"
+        ".collection .title-wrapper {text-align: center !important;}",
+        ".collection__title {text-align: center !important;}"
       ],
       "settings": {
         "collection": "空調風神服-ファン-バッテリー",
@@ -155,12 +155,12 @@
       "custom_css": [
         ".card--standard .card__media {aspect-ratio: auto !important;}",
         ".card__media img {aspect-ratio: 4/5 !important; object-fit: contain !important; background: #fff !important;}",
-        ".collection .title-wrapper{text-align:center!important}",
-        ".collection__title{text-align:center!important}"
+        ".collection .title-wrapper {text-align: center !important;}",
+        ".collection__title {text-align: center !important;}"
       ],
       "settings": {
         "collection": "空調風神服",
-        "products_to_show": 8,
+        "products_to_show": 4,
         "title": "空調風神服",
         "heading_size": "h2",
         "description": "",
@@ -189,8 +189,8 @@
       "custom_css": [
         ".card--standard .card__media {aspect-ratio: auto !important;}",
         ".card__media img {aspect-ratio: 4/5 !important; object-fit: contain !important; background: #fff !important;}",
-        ".collection .title-wrapper{text-align:center!important}",
-        ".collection__title{text-align:center!important}"
+        ".collection .title-wrapper {text-align: center !important;}",
+        ".collection__title {text-align: center !important;}"
       ],
       "settings": {
         "collection": "おすすめアイテム",
