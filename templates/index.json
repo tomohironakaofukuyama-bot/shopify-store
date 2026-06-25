@@ -15,8 +15,15 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "現場を変える、仕事服。",
+            "heading": "作業服・空調服の専門店 GENBAREX",
             "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "GENBAREXは、働く人の快適さ・安全性・動きやすさを支える、作業服・ユニフォームの専門ブランドです。",
+            "text_style": "body"
           }
         },
         "button": {
@@ -33,20 +40,18 @@
       },
       "block_order": [
         "heading",
+        "text",
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/77e3f67a-6a97-4a8c-8264-81f09ff1e930_1.png",
-        "image_2": "shopify://shop_images/ChatGPT_Image_2026_6_22_15_17_01.png",
         "image_overlay_opacity": 40,
         "image_height": "large",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-right",
-        "desktop_content_alignment": "center",
+        "desktop_content_position": "bottom-center",
         "show_text_box": false,
+        "desktop_content_alignment": "center",
         "color_scheme": "scheme-3",
-        "stack_images_on_mobile": false,
         "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
         "show_text_below": false
       }
     },
@@ -55,45 +60,31 @@
       "blocks": {
         "col_fan_battery": {
           "type": "featured_collection",
-          "settings": {
-            "collection": "空調風神服ファン-バッテリーセット"
-          }
+          "settings": { "collection": "空調風神服ファン-バッテリーセット" }
         },
         "col_kucho": {
           "type": "featured_collection",
-          "settings": {
-            "collection": "空調服-空調風神服"
-          }
+          "settings": { "collection": "空調服-空調風神服" }
         },
         "col_cargo": {
           "type": "featured_collection",
-          "settings": {
-            "collection": "カーゴパンツ-ボトムス"
-          }
+          "settings": { "collection": "カーゴパンツ-ボトムス" }
         },
         "col_polo": {
           "type": "featured_collection",
-          "settings": {
-            "collection": "ポロシャツ-tシャツ"
-          }
+          "settings": { "collection": "ポロシャツ-tシャツ" }
         },
         "col_sagyofu": {
           "type": "featured_collection",
-          "settings": {
-            "collection": "作業服-ユニフォーム"
-          }
+          "settings": { "collection": "作業服-ユニフォーム" }
         },
         "col_suirei": {
           "type": "featured_collection",
-          "settings": {
-            "collection": "水冷服-冷却グッズ"
-          }
+          "settings": { "collection": "水冷服-冷却グッズ" }
         },
         "col_vest": {
           "type": "featured_collection",
-          "settings": {
-            "collection": "安全ベスト-保護具"
-          }
+          "settings": { "collection": "安全ベスト-保護具" }
         }
       },
       "block_order": [
@@ -115,165 +106,20 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "collection": "空調風神服-ファン-バッテリー",
-        "products_to_show": 8,
-        "title": "空調風神服 ファン・バッテリー",
+        "title": "おすすめ商品",
         "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
         "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
         "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "swipe_on_mobile": false,
         "image_ratio": "adapt",
-        "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "quick_add": "none",
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
         "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_2": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "空調風神服",
-        "products_to_show": 8,
-        "title": "空調風神服",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_3": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "おすすめアイテム",
-        "products_to_show": 8,
-        "title": "おすすめアイテム",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "faq": {
-      "type": "collapsible-content",
-      "blocks": {
-        "row_0": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "商品の発送はいつ頃になりますか？",
-            "icon": "check_mark",
-            "row_content": "<p>ご入金・決済完了後、通常3営業日以内に発送いたします。</p>",
-            "page": ""
-          }
-        },
-        "row_1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "送料はいくらですか？",
-            "icon": "check_mark",
-            "row_content": "<p>5,000円以上のご注文で送料無料です。※沖縄・離島・北海道は対象外となります。</p>",
-            "page": ""
-          }
-        },
-        "row_2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "見積書の発行は可能ですか？",
-            "icon": "check_mark",
-            "row_content": "<p>まとめ買い・大口注文も承っております。在庫・納期を確認のうえ、見積書を発行いたしますので、お気軽にご相談ください。</p>",
-            "page": ""
-          }
-        },
-        "row_3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "注文内容の変更はできますか？",
-            "icon": "check_mark",
-            "row_content": "<p>ご注文完了後のお客様都合による変更は、商品出荷前、または未開封の場合に限り対応可能です。あらかじめご了承ください。</p>",
-            "page": ""
-          }
-        },
-        "row_4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "メーカー保証はありますか？",
-            "icon": "check_mark",
-            "row_content": "<p>商品によって保証内容は異なります。空調ウェア本体は6ヶ月間、ファン・バッテリーは1年間のメーカー保証がございます。</p>",
-            "page": ""
-          }
-        },
-        "row_5": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "どのような決済方法がありますか？",
-            "icon": "check_mark",
-            "row_content": "<p>クレジットカード決済、銀行振込に対応しております。</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_0",
-        "row_1",
-        "row_2",
-        "row_3",
-        "row_4",
-        "row_5"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "よくあるご質問",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "container_color_scheme": "scheme-1",
-        "color_scheme": "scheme-1",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
         "padding_bottom": 36
       }
     }
@@ -281,9 +127,6 @@
   "order": [
     "image_banner",
     "category_grid_custom",
-    "featured_collection",
-    "featured_collection_2",
-    "featured_collection_3",
-    "faq"
+    "featured_collection"
   ]
 }
