@@ -15,14 +15,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "作業服・空調服の専門店 GENBAREX",
+            "heading": "現場を変える、仕事服。",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "GENBAREXは、働く人の快適さ・安全性・動きやすさを支える、作業服・ユニフォームの専門ブランドです。",
+            "text": "",
             "text_style": "body"
           }
         },
@@ -52,7 +52,9 @@
         "color_scheme": "scheme-3",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
-        "show_text_below": false
+        "show_text_below": false,
+        "image": "shopify://shop_images/77e3f67a-6a97-4a8c-8264-81f09ff1e930_1.png",
+        "image_2": "shopify://shop_images/ChatGPT_Image_2026_6_22_15_17_01.png"
       }
     },
     "category_grid_custom": {
@@ -60,31 +62,45 @@
       "blocks": {
         "col_fan_battery": {
           "type": "featured_collection",
-          "settings": { "collection": "空調風神服ファン-バッテリーセット" }
+          "settings": {
+            "collection": "空調風神服ファン-バッテリーセット"
+          }
         },
         "col_kucho": {
           "type": "featured_collection",
-          "settings": { "collection": "空調服-空調風神服" }
+          "settings": {
+            "collection": "空調服-空調風神服"
+          }
         },
         "col_cargo": {
           "type": "featured_collection",
-          "settings": { "collection": "カーゴパンツ-ボトムス" }
+          "settings": {
+            "collection": "カーゴパンツ-ボトムス"
+          }
         },
         "col_polo": {
           "type": "featured_collection",
-          "settings": { "collection": "ポロシャツ-tシャツ" }
+          "settings": {
+            "collection": "ポロシャツ-tシャツ"
+          }
         },
         "col_sagyofu": {
           "type": "featured_collection",
-          "settings": { "collection": "作業服-ユニフォーム" }
+          "settings": {
+            "collection": "作業服-ユニフォーム"
+          }
         },
         "col_suirei": {
           "type": "featured_collection",
-          "settings": { "collection": "水冷服-冷却グッズ" }
+          "settings": {
+            "collection": "水冷服-冷却グッズ"
+          }
         },
         "col_vest": {
           "type": "featured_collection",
-          "settings": { "collection": "安全ベスト-保護具" }
+          "settings": {
+            "collection": "安全ベスト-保護具"
+          }
         }
       },
       "block_order": [
