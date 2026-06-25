@@ -108,6 +108,10 @@
         "col_suirei",
         "col_vest"
       ],
+      "custom_css": [
+        ".card--standard .card__media{aspect-ratio:4/5!important}",
+        ".card__media img{object-fit:contain!important;background:#fff!important}"
+      ],
       "settings": {
         "title": "カテゴリーから探す",
         "heading_size": "h2",
