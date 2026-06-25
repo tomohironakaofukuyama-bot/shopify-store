@@ -3595,3 +3595,16 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+
+/* 商品カード：商品名と価格の調整 */
+.card__heading,
+.card-information__text {
+  font-size: 1.05rem !important;
+  line-height: 1.5 !important;
+}
+.price .price-item--regular,
+.price__regular .price-item {
+  color: #f0a500 !important;
+  font-size: 1.3rem !important;
+  font-weight: 700 !important;
+}
