@@ -108,10 +108,7 @@
         "col_suirei",
         "col_vest"
       ],
-      "custom_css": [
-        ".card--standard .card__media{aspect-ratio:4/5!important}",
-        ".card__media img{object-fit:contain!important;background:#fff!important}"
-      ],
+      "custom_css": [],
       "settings": {
         "title": "カテゴリーから探す",
         "heading_size": "h2",
@@ -121,7 +118,10 @@
     },
     "featured_collection": {
       "type": "featured-collection",
-      "custom_css": [],
+      "custom_css": [
+        ".card--standard .card__media{aspect-ratio:auto!important}",
+        ".card__media img{aspect-ratio:4/5!important;object-fit:contain!important;background:#fff!important}"
+      ],
       "settings": {
         "collection": "all",
         "products_to_show": 8,
