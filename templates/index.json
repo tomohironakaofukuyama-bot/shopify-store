@@ -119,8 +119,10 @@
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
-        ".card--standard .card__media{aspect-ratio:auto!important}",
-        ".card__media img{aspect-ratio:4/5!important;object-fit:contain!important;background:#fff!important}"
+        ".card--standard .card__media {aspect-ratio: auto !important;}",
+        ".card__media img {aspect-ratio: 4/5 !important; object-fit: contain !important; background: #fff !important;}",
+        ".collection .title-wrapper{text-align:center!important}",
+        ".collection__title{text-align:center!important}"
       ],
       "settings": {
         "collection": "all",
